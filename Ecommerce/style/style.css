@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/LOGO.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-image: url(../img/b2.svg);
+    text-align: center;
+}
+header > h1{
+    padding-top: 15px;
+    font-family: 'MedievalSharp', cursive;
+}
+.info{
+    width: 70%;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+.info > .tuto{
+    padding-top: 20px;
+    font-family: 'MedievalSharp', cursive;
+}
+.info > .tuto2{
+    width: 70%;
+    text-align: center;
+}
+.info > .tuto2 > .tuto3{
+    margin-top: 40px;
+    margin-left: 25px;
+    width: 290px;
+    text-align: center;
+    font-size: 17px;
+}
+.container{
+    width: 70%;
+    height: 700px;
+    margin: 0 auto;
+}
+#opcao{
+    width: 600px;
+    height: 40px;
+    display: inline-block;
+}
+#icategoria{
+    width: 330px;
+    height: 40px;
+    margin-left: 3px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+#ivalor{
+    margin-top: 20px;
+    margin-left: 3px;
+}
+#informa{
+    width: 160px;
+    display: inline-block;
+}
+#iitems{    
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 3px;
+    
+}
+#ivalor{    
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 3px;
+    padding-left: 5px;
+}
+#ipeso{    
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 3px;
+    
+}
+button{    
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 3px;
+    background-color: rgb(20, 238, 20);
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#resultado{
+    display: inline;
+}
+#iitensComprado{
+    width: 335px;
+    text-align: center;
+    background-image: url(../img/b2.svg);
+}
+#content{
+    display: flex;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comércio Regional</title>
+
+    <link rel="shortcut icon" href="../img/LOGO.jpg" type="image/jpg">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Comércio Regional</h1>
+    </header>
+    <section class="info">
+        <div class="tuto">
+            <h1>Como Funciona?</h1>
+        </div>
+        <div class="tuto2">
+            <p class="tuto3">
+                Olá viajante, como vai? Se deseja negociar com o comerciante, você deve primeiro selecionar a categoria de itens que você se interessa em comprar. Em seguida, na caixa de seleção, você deve selecionar o que você deseja e ir clicando em adicionar. Depois de adicionar todos os itens. Você deve adicionar o valor que tá pagando ao comerciante (para saber o troco) e também o tipo da moeda. Após todas as etapas, clique em comprar. Seus itens aparecerão na caixa enorme ao lado junto ao valor e também o seu troco. Volte sempre meu nobre!
+            </p>
+        </div>
+    </section>
+    <section class="container">
+        <div id="opcao">
+            <select name="categoria" id="icategoria">
+                <option value="Items">Items Comuns</option>
+                <option value="Items">Itens Incomuns</option>
+                <option value="Items">Itens Raros</option>
+                <option value="Items">Itens Lendarios</option>
+                <option value="Items">Armas</option>
+                <option value="Items">Armadura</option>
+                
+
+            </select>
+        </div>
+        <div class="content">
+            <div class="escolha">
+                <div id="informa">
+                    <select name="items" id="iitems">
+                        <option value="">Item 1</option>
+                        <option value="">Item 1</option>
+                        <option value="">Item 1</option>
+                        <option value="">Item 1</option>
+                        <option value="">Item 1</option>
+                        <option value="">Item 1</option>
+                    </select>
+                
+                    <br>
+
+                    <input placeholder="Valor que será dado."type="number" name="valor" id="ivalor">
+
+                    <br>
+
+                    <select name="peso" id="ipeso">
+
+                        <option value="cobre">Cobre</option>
+                        <option value="prata">Prata</option>
+                        <option value="electro">Electro</option>
+                        <option value="ouro">Ouro</option>
+                        <option value="platina">Platina</option>
+                    </select>
+
+                    <br>
+                    
+                    <button>Comprar</button>
+
+                    <div id="resultado">
+                        <textarea name="itens" id="iitensComprado" cols="30" rows="10"></textarea>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <script src="../script/index.js"></script>
+</body>
+</html>
